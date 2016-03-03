@@ -1,0 +1,502 @@
+{"game": 
+	{ 
+	"rooms":
+		[
+			{"v_class":"Room", "roomIx":1, "v_name":"Hallen",
+			"descr":
+				[
+					"Hallen. En helt vanlig, tråkig hall.",
+					"Hallen. Rektangulär och gul.",
+					"Hallen. Utposten. Början och slutet."
+				],
+			"v_container":
+				[
+					{"v_class":"Menu"},
+					{"v_class":"ExitDoor"}
+				]
+			},
+			{"v_class":"Room", "roomIx":2, "v_name":"Fikarummet",
+			"descr":
+				[
+					"Fikarummet är ljust och trevligt.",
+					"Fikarummet - kontorets vattenhål.",
+					"Fikarummet har många dyra inredningsdetaljer."
+				],
+			"v_container":
+				[
+					{"v_class":"Microwave"},
+					{"v_class":"CoffeeMachine"},
+					{"v_class":"ArcadeGame"},
+					{"v_class":"Fruitbowl", 
+					"v_container":
+						[
+							{"v_class":"Banana"},
+							{"v_class":"Banana"},
+							{"v_class":"Banana"},
+							{"v_class":"Apple"},
+							{"v_class":"Apple"},
+							{"v_class":"Apple"},
+							{"v_class":"Orange"},
+							{"v_class":"Orange"}
+						]
+					},
+					{"v_class":"Chair", "sitterPerson":"Muts"}
+				]
+			},
+			{"v_class":"Room", "roomIx":3, "v_name":"Toan",
+			"descr":
+				[
+					[
+						"Här finns en dörr in till toaletten. En doft av ",
+						["hallon", "myskoxe", "handsprit"],
+						" och ",
+						["död", "solkokt tång", "ångest"],
+						" hänger i luften."
+					]
+				],
+			"v_container":
+				[
+					{"v_class":"Prilla"},
+					{"v_class":"ToiletDoor", "v_container":[{"v_class":"Toilet"}]}
+				]
+			},
+			{"v_class":"Room", "roomIx":4, "v_name":"Fratriks & Pedriks rum",
+			"descr":
+				[
+					[
+						"Fratriks och Pedriks arbetsplats. ",
+					 	["Pedrik har det jätteprydligt.", "Fratrik har det kanske inte jätteprydligt."]
+					]
+				],
+			"v_container":
+				[
+					{"v_class":"Chair", "sitterPerson":"Fratrik"},
+					{"v_class":"Chair", "sitterPerson":null},
+					{"v_class":"Drawer", "v_container":[{"v_class":"Datasheet"}]},
+					{"v_class":"Table", "v_container":
+						[
+						{"v_class":"Computer"},
+						{"v_class":"BadPen"},{"v_class":"BadPen"},{"v_class":"BadPen"},{"v_class":"BadPen"},
+						{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},{"v_class":"PostIt"},
+						{"v_class":"Devboard"},{"v_class":"Devboard"},
+						{"v_class":"Cat"},
+						{"v_class":"Cable"},{"v_class":"Cable"},{"v_class":"Cable"},{"v_class":"Cable"},
+						{"v_class":"BadMug"},{"v_class":"BadMug"},
+						{"v_class":"Book", "descr":"Titeln är 'Safer C'"},
+						{"v_class":"Book", "descr":"Titeln är 'The 8051 - A Love Story'"},
+						{"v_class":"Book", "descr":"Titeln är 'Vintage Processing: Inside the Atari Arcade 6800 Processor'. Hmmm..."},
+						{"v_class":"DatasheetOther", "descr":"Ett datablad för MRA16384 utvecklingskortet"},
+						{"v_class":"DatasheetOther", "descr":"Ett datablad för MTS1788L accelerometern"},
+						{"v_class":"DatasheetOther", "descr":"Ett datablad för AV6080 kameramodulen"},
+						{"v_class":"DatasheetOther", "descr":"Ett datablad för SMT32G412 utvecklingskortet"},
+						{"v_class":"DatasheetOther", "descr":"Ett datablad för Missile Command Structure in the Atari Arcade Machines. Skumt..."}
+						]
+					},
+					{"v_class":"Table", "v_container":[{"v_class":"Computer"}]}
+					
+				]
+			},
+			{"v_class":"Room", "roomIx":5, "v_name":"Mitt rum",
+			"descr":"Min alldeles egna kära lilla fina arbetsplats.",
+			"v_container":
+				[
+					{"v_class":"Chair", "sitterPerson":null},
+					{"v_class":"Drawer", "v_container":[{"v_class":"Pen"}, {"v_class":"RedHerring"}]},
+					{"v_class":"Table", "v_container":[{"v_class":"Computer"}]}
+				]
+			},
+			{"v_class":"Room", "roomIx":6, "v_name":"Jeans & Gunthers rum",
+			"descr":
+				[
+					[
+						"Jeans och Gunthers arbetsplats. ",
+						["Det skvalar hårdrock från Jeans plats.", "Det skvalar marschmusik från Gunthers plats."]
+					]
+				],
+			"v_container":
+				[
+					{"v_class":"Chair", "sitterPerson":"Jean"},
+					{"v_class":"Chair", "sitterPerson":"Gunther"},
+					{"v_class":"Drawer", "v_container":[{"v_class":"Battery"}]},
+					{"v_class":"Table", "v_container":[{"v_class":"Computer"}, {"v_class":"Oscilloscope"}, {"v_class":"DevboardGunther"}]},
+					{"v_class":"Table", "v_container":[{"v_class":"Computer"}]}
+				]
+			},
+			{"v_class":"Room", "roomIx":7, "v_name":"Schtevens & Gringos rum",
+			"descr":
+				[
+					[
+						"Schtevens och Gringos arbetsplats. ", 
+						["Kontorets kommandocentral.","Jag känner auran av viktighet.","Här tas alla viktiga beslut. Och oviktiga också."]
+					]
+				],
+			"v_container":
+				[
+					{"v_class":"Chair", "sitterPerson":"Gringo"},
+					{"v_class":"Chair", "sitterPerson":null},
+					{"v_class":"Drawer", "v_container":[{"v_class":"Fan"}]},
+					{"v_class":"Table", "v_container":[{"v_class":"Computer"}]},
+					{"v_class":"Table", "v_container":[{"v_class":"Computer"}]},
+					{"v_class":"Copier"}
+				]
+			}
+		]
+	,
+	"persons":
+		[
+			{"v_class":"Person", "v_name":"Fratrik", "roomIx":4, "homeRoomIx":4,
+			"descr":"Icke desto mindre har Fratrik något tomt i blicken.",
+			"toilet":2, "talk":5, "eat":3, "workMin":25, "workMax":60},
+			{"v_class":"Person", "v_name":"Pedrik", "roomIx":0, "homeRoomIx":4,
+			"descr":"Icke desto mindre har Pedrik något misstänksamt i blicken.",
+			"toilet":4, "talk":5, "eat":3, "workMin":25, "workMax":60, "sleeping":true},
+			{"v_class":"Person", "v_name":"Jean", "roomIx":6, "homeRoomIx":6,
+			"descr":"Icke desto mindre har Jean matrester i mustaschen.",
+			"toilet":4, "talk":5, "eat":3, "workMin":25, "workMax":60},
+			{"v_class":"Person", "v_name":"Gunther", "roomIx":6, "homeRoomIx":6,
+			"descr":"Icke desto mindre har Gunther något glest skägg.",
+			"toilet":1, "talk":1, "eat":1, "workMin":35, "workMax":60},
+			{"v_class":"Person", "v_name":"Gringo", "roomIx":7, "homeRoomIx":7,
+			"descr":"Icke desto mindre är Gringo klädd i en tajt spandexdräkt som ser ut att vara ett flertal nummer för liten och ascool cykelhjälm.",
+			"toilet":8, "talk":25, "eat":5, "workMin":6, "workMax":20, "v_container":[{"v_class":"Key"}]},
+			{"v_class":"Person", "v_name":"Muts", "roomIx":2, "homeRoomIx":2,
+			"descr":"Icke desto mindre har Muts något ondskefullt i blicken.",
+			"toilet":0, "talk":0, "eat":7, "workMin":45, "workMax":60}
+		]
+	,
+	"player":
+		{
+			"roomIx":5,
+			"v_name":"Player"
+		},
+		
+	"achievements":[],
+	
+	"staticRants":[],
+	
+	"rants":
+		[
+			{"prereq":"p_fratrik,!s_hellofratrik",
+			 "q":"'Tjena Fratrik, läget?'",
+			 "a":[["Hej {player}, jotack bara fint. Sitter och ",
+						["kodar en patch till GCCs backend.", "donar lite med assemblyn.", "mailar Muts om våra issues."]
+					]],
+			 "trigger":"s_hellofratrik"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,!s_ffood1",
+			 "q":"'Vad sägs om burgare idag?'",
+			 "a":[["Mmmm burgare! Gott. Men jag måste fixa ",
+						["en patch till GCCs backend.", "assemblyn.", "mailen till Muts om våra issues."]
+				 ]],
+			 "trigger":"s_ffood1"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,s_ffood1,!s_ffood2",
+			 "q":"'Ah kom igen, du är väl hungrig?'",
+			 "a":[["Ptja. Men jag måste verkligen avsluta ",
+						["patchen till GCCs backend.", "assemblyn.", "mailen till Muts om våra issues."]
+					]],
+			 "trigger":"s_ffood2"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,s_ffood2,!s_ffood3",
+			 "q":"'Amen du kommer ju aldrig bli klar innan lunch. Kom igen nu. Komsikomsikomsikomsi...'",
+			 "a":"Tjat! Jag vet - om du slår mitt highscore på arkadmaskinen hänger jag på *heh*. Nu måste jag jobba. Tjipp!",
+			 "trigger":"s_ffood3,endrant"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,s_ffood3,!a_missile_commander",
+			 "q":["'Mmmm burgare... Saftig fin fet burgare...'","'Matmatmatmatmat!'","'Liite hungrig iallafall?'"],
+			 "a":"Neeeej! Måste jobba. Ta du och öva på Missile Command istället, pojke lilla.",
+			 "trigger":"endrant"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,s_ffood3,a_missile_commander,!a_beat_fratrik,!s_checkhighscore",
+			 "q":"'Ha! Kolla in highscoret nu då, lamer!'",
+			 "a":"Whaaaaaat!? Jag ska minsann kolla!",
+			 "trigger":"o_checkhighscore,s_checkhighscore,endrant"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,s_ffood3,a_missile_commander,a_beat_fratrik,!s_fratrik_clear",
+			 "q":"'Jaha. Ser visst ut som jag vann. Lätt som en tårta.' *Moonwalk*",
+			 "a":"Alltså, nåt är skumt här. Men ok, ett vad är ett vad - jag går ut i hallen och väntar.",
+			 "trigger":"o_hall,endrant,s_fratrik_clear"
+			},
+			{"prereq":"p_fratrik,s_hellofratrik,s_hellogunther",
+			 "q":"'Du, Gunthers utvecklingsbräda - han har visst problem med SPI bussen.'",
+			 "a":"Jo, alltså. Jag hade ett datablad här. Där var schematics över grejorna, det hade säkert löst det. Jag hittar det inte nu, men leta gärna.",
+			 "trigger":""
+			},
+			{"prereq":"p_fratrik,!a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Jo, han kom in här och tog en näve allergipiller. Han är ju allergisk mot bananer. Såg rätt dåsig ut, vet inte var han blev av sen.",
+			 "trigger":""
+			},
+			{"prereq":"p_fratrik,a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Öhhm.. Pedrik? Är inte han här?",
+			 "trigger":""
+			},
+			{"prereq":"p_fratrik",
+			 "q":"Fråga om Gringo",
+			 "a":"Gringo? Han springer väl runt och letar efter sin cykelnyckel?",
+			 "trigger":""
+			},
+			{"prereq":"p_fratrik",
+			 "q":"Fråga om Muts",
+			 "a":"Han brukar sitta i fikarummet och jobba. När han inte har möte med Gringo.",
+			 "trigger":""
+			},
+			{"prereq":"p_fratrik,!a_coffe_bug_fixed",
+			 "q":"Fråga om kaffemaskinen",
+			 "a":"Trasig igen. Hade man bara ett bra mätinstrument skulle man nog kunna se vad som var fel.",
+			 "trigger":""
+			},
+			
+			
+			{"prereq":"p_pedrik,!s_hellopedrik",
+			 "q":"'Tjena Pedrik, läget?'",
+			 "a":"Hallå ja {player}. Du, tack för kaffet. Jag behövde det verkligen.",
+			 "trigger":"s_hellopedrik"
+			},
+			{"prereq":"p_pedrik,s_hellopedrik,a_pedrik_woken,!s_pcheckmenu",
+			 "q":"'Burgarsugen?'",
+			 "a":"Mjae, det var rätt gott på restaurangen idag.",
+			 "trigger":"s_pburger"
+			},
+			{"prereq":"p_pedrik,s_hellopedrik,a_pedrik_woken,!s_pbananas",
+			 "q":"'Du gillar inte bananer, va?'",
+			 "a":"Hin håles frukt. Det räcker med att nån äter en i samma rum så får jag allergiflippen.",
+			 "trigger":"s_pbananas"
+			},
+			{"prereq":"p_pedrik,s_hellopedrik,a_pedrik_woken,a_menu_altered,!s_pcheckmenu,s_pburger",
+			 "q":"'Jag visste inte du gillade grönsaker så mycket?'",
+			 "a":"Va? Grönsaker? Idag? På restaurangen? Jag går och kollar direkt!",
+			 "trigger":"o_checkmenu,s_pcheckmenu,endrant"
+			},
+			{"prereq":"p_pedrik,s_hellopedrik,a_pedrik_woken,s_pcheckmenu,a_menu_altered,a_pedrik_menu_check,!s_pedrik_clear",
+			 "q":"'Burgare?'",
+			 "a":"Ja för jäsicken! Jag går ut i hallen och väntar.",
+			 "trigger":"o_hall,endrant,s_pedrik_clear"
+			},
+			{"prereq":"p_pedrik",
+			 "q":"Fråga om Fratrik",
+			 "a":"Gillar att slå vad. Har nog varit fakir, han äter aldrig.",
+			 "trigger":""
+			},
+			{"prereq":"p_pedrik",
+			 "q":"Fråga om Gringo",
+			 "a":"En gång hittade jag hans cykelnyckel. Nu är han mig evigt tacksam.",
+			 "trigger":""
+			},
+			{"prereq":"p_pedrik",
+			 "q":"Fråga om Gunther",
+			 "a":"Gillar tvåtakt.",
+			 "trigger":""
+			},
+			{"prereq":"p_pedrik",
+			 "q":"Fråga om Jean",
+			 "a":"Han gillar torra snusprillor. Visst är det konstigt?",
+			 "trigger":""
+			},
+			{"prereq":"p_pedrik,!a_jean_nico",
+			 "q":"Fråga om toan",
+			 "a":"Det satt en äcklig prilla i taket. Nån borde ta en stol och plocka bort den.",
+			 "trigger":""
+			},
+			
+			
+			
+			{"prereq":"p_gunther,!s_hellogunther",
+			 "q":"'Tjena Gunther, läget?'",
+			 "a":"Guten Tag {player}, nicht gut - kaffemaskinen är paj, och jag får inte liv i utvecklingskortet jag lånat av Fratrich.",
+			 "trigger":"s_hellogunther"
+			},
+			{"prereq":"p_gunther,s_hellogunther,!a_gunther_help,!s_gfehler",
+			 "q":"'Vad är det för fel på din bräda?'",
+			 "a":"Also, SPI-bussen verkar inte orka dra ner mot jord. Sehen hier på oscilloskopet. Sehr konstigt.",
+			 "trigger":"s_gfehler"
+			},
+			{"prereq":"p_gunther,s_hellogunther,!a_gunther_help,s_gfehler",
+			 "q":"'Har du kollat med Fratrik?'",
+			 "a":"Ja, aber han kunde inte hitta databladet på kortet. Verdammt...",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther,s_hellogunther,!a_gunther_help",
+			 "q":"'Snälla Gunther, får jag låna oscilloskopet?'",
+			 "a":"Lieber {player}, wann jag är fertig mit diesem utvecklingskort. SPI-bussen är helt verrückt.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther,s_hellogunther,a_gunther_help",
+			 "q":"'Snälla Gunther, får jag låna oscilloskopet?'",
+			 "a":"Absolutlich! Jag visste inte jag hade det kvar.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther,!a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Sist jag såg honom sprang han in på der Wasserklosett.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther,a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Öhhm.. Pedrich? Tyckte jag såg honom für en liten Zeit sen.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther",
+			 "q":"Fråga om Fratrik",
+			 "a":"Jag lånade Fratrich utvecklingsbräda för att försöka få den att funkieren.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther",
+			 "q":"Fråga om Gringo",
+			 "a":"Gringo brukar tappa sin Fahrradnyckel.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther",
+			 "q":"Fråga om Muts",
+			 "a":"Er sitzt in der Fikarum, ja? Ibland är han Gringos Zimmer.",
+			 "trigger":""
+			},
+			{"prereq":"p_gunther,!a_coffe_bug_fixed",
+			 "q":"Fråga om kaffemaskinen",
+			 "a":"Der KaffeMaschine? Jag trinkt inte Kaffe.",
+			 "trigger":""
+			},
+			
+			
+			
+			{"prereq":"p_jean,!s_hellojean",
+			 "q":"'Tjena Jean-Pierre, läget?'",
+			 "a":"Tja! Sjukt snussugen! Slog vad igår om att jag inte skulle snusa på hela dan. Inget snus med mig. Argh!",
+			 "trigger":"s_hellojean"
+			},
+			{"prereq":"p_jean,s_hellojean,!a_jean_nico",
+			 "q":"'Käka burgare idag?'",
+			 "a":["Måste .. ha .. snus..", "Snus! Har du snus? Snus, nån?", "Kan inte tänka på mat nu. Bara snus", "*snyft* Bara lite snus... *snyft*"],
+			 "trigger":""
+			},
+			{"prereq":"p_jean,s_hellojean,a_jean_nico,!s_snus",
+			 "q":"'Känns det bättre nu?'",
+			 "a":"Aaaaaahhhhh... Mycket bättre... Ovanlig god prilla! Lagrad liksom. Vad var det för märke?",
+			 "trigger":"s_snus"
+			},
+			{"prereq":"p_jean,s_hellojean,a_jean_nico,!s_jcheckmenu",
+			 "q":"'Sugen på burgare nu då?'",
+			 "a":"Nä, det var ju sjukt gott på restaurangen idag. Kött med kött. Mmmm! Burgare imorgon?",
+			 "trigger":"s_jburger"
+			},
+			{"prereq":"p_jean,s_hellojean,a_jean_nico,a_menu_altered,!s_jcheckmenu,s_jburger",
+			 "q":"'Har du verkligen kollat rätt på menyn? Inget kött där inte.'",
+			 "a":"Vafalls!? Jag går och kollar direkt!",
+			 "trigger":"o_checkmenu,s_jcheckmenu,endrant"
+			},
+			{"prereq":"p_jean,s_hellojean,a_jean_nico,s_jcheckmenu,a_menu_altered,a_jean_menu_check,!s_jean_clear",
+			 "q":"'Burgare?'",
+			 "a":"Ja för böfvelen, varför inte? Jag går ut i hallen och väntar.",
+			 "trigger":"o_hall,endrant,s_jean_clear"
+			},
+			{"prereq":"p_jean,!a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Han kilade förbi i morse, mumlade nåt om att han bara måste ha kaffe.",
+			 "trigger":""
+			},
+			{"prereq":"p_jean,a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Han är här nånstans. Såg honom just.",
+			 "trigger":""
+			},
+			{"prereq":"p_jean",
+			 "q":"Fråga om Gringo",
+			 "a":"Gringo är lite okoordinerad ibland. Går in i saker. Brukar tappa saker.",
+			 "trigger":""
+			},
+			{"prereq":"p_jean",
+			 "q":"Fråga om Muts",
+			 "a":"Sitter säkert och häckar i fikarummet.",
+			 "trigger":""
+			},
+			{"prereq":"p_jean,!a_coffe_bug_fixed",
+			 "q":"Fråga om kaffemaskinen",
+			 "a":"Paj! Verkligen brist på stimulantia idag. Kan inte du fixa den?",
+			 "trigger":""
+			},
+
+
+
+			
+			{"prereq":"p_gringo,!s_hellogringo",
+			 "q":"'Tjena Gringo, läget?'",
+			 "a":"Hejsan {player}, tack för du hittade nyckeln. Jag är dig evigt tacksam!",
+			 "trigger":"s_hellogringo"
+			},
+			{"prereq":"p_gringo,s_hellogringo,!s_gmuts1",
+			 "q":"'Du, eeh - har du något möte med Muts inbokat?'",
+			 "a":"Jo, i eftermiddag. Hurså?",
+			 "trigger":"s_gmuts1"
+			},
+			{"prereq":"p_gringo,s_hellogringo,s_gmuts1,!s_gmuts2",
+			 "q":"'Nä, alltså jag undrar bara om du kunde ta det innan lunch?'",
+			 "a":"Varför det..? Eller tja, du hittade ju min nyckel så självklart. Jag kan ta det nu direkt.",
+			 "trigger":"s_gmuts2"
+			},
+			{"prereq":"p_gringo,s_hellogringo,s_gmuts2,!s_gmuts3",
+			 "q":"'Schyrre! Och du - kan ni ha det på ditt rum istället för i fikarummet?'",
+			 "a":"Visst. Men varför det egentligen? Muts älskar ju fikarummet.",
+			 "trigger":"s_gmuts3"
+			},
+			{"prereq":"p_gringo,s_hellogringo,s_gmuts3,!s_gmuts4",
+			 "q":"'Jo, ööh... Fratrik vill testa kroki... och Jean ska vara modell... och de ska vara i fikarummet. Så..'",
+			 "a":"Herrejesus! Absolut. Självklart. Jag fixar det. Jag ringer Muts direkt.",
+			 "trigger":"s_gmuts4,o_mutsmeeting,endrant"
+			},
+			{"prereq":"p_gringo,s_hellogringo,s_gmuts3,!s_gmuts4",
+			 "q":"'Jo, ööh... De ska provbomba precis utanför fikarummet.. Så ni inte blir störda tänkte jag...'",
+			 "a":"Herrejesus! Absolut. Självklart. Jag fixar det. Jag ringer Muts direkt.",
+			 "trigger":"s_gmuts4,o_mutsmeeting,endrant"
+			},
+			{"prereq":"p_gringo,s_hellogringo,s_gmuts3,!s_gmuts4",
+			 "q":"'Jo, ööh... Gunther ska ha sousafonkonsert i fikarummet.. Mahlers sexa... Du vet...'",
+			 "a":"Herrejesus! Absolut. Självklart. Jag fixar det. Jag ringer Muts direkt.",
+			 "trigger":"s_gmuts4,o_mutsmeeting,endrant"
+			},
+			
+			
+			
+			
+			{"prereq":"p_muts,!s_hellomuts",
+			 "q":"'Tjena Muts, läget?'",
+			 "a":"Jodå, bara fint tack. Själv? Är du klar med bootloadern förresten?",
+			 "trigger":"s_hellomuts"
+			},
+			{"prereq":"p_muts,s_hellomuts",
+			 "q":"'Varför sitter du jämt här?'",
+			 "a":"Åh, jag älskar vyn av det föränderliga havet med de fria måsarna cirklande ovanför. Och doften av nysvetsad balk.",
+			 "trigger":""
+			},
+			{"prereq":"p_muts,!a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Han kom in i morse och skulle ta kaffe när jag åt en banan. Sprang iväg med ett tjut.",
+			 "trigger":""
+			},
+			{"prereq":"p_muts,a_pedrik_woken",
+			 "q":"Fråga om Pedrik",
+			 "a":"Han är i bygget nånstans.",
+			 "trigger":""
+			},
+			{"prereq":"p_muts",
+			 "q":"Fråga om arkadmaskinen",
+			 "a":"Den är gammal och omtålig. Verkar som om RAM-kapslarna sitter löst.",
+			 "trigger":""
+			},
+			{"prereq":"p_muts,!a_coffe_bug_fixed",
+			 "q":"Fråga om kaffemaskinen",
+			 "a":"Den är trasig. Pumpen igen. Ringt reparatören, kommer om åtta veckor.",
+			 "trigger":""
+			},
+
+
+
+			{"prereq":"",
+			 "q":"Fråga om Schteven",
+			 "a":["Vabbar inte han?","Har inte han semester?","Sitter inte han i möte?","Jobbar inte han hemifrån idag?","Är inte han på knypplingskurs i Madrid?","Tror han är på konferens.","Tar inte han MC-kort idag?","Sitter inte han i rätten hela veckan?"],
+			 "trigger":""
+			}
+
+		]
+	}
+}

@@ -1,0 +1,768 @@
+{
+  "game": {
+    "rooms": [
+      {
+        "descr": [
+          "Hallen. En helt vanlig, tr\u00e5kig hall.",
+          "Hallen. Rektangul\u00e4r och gul.",
+          "Hallen. Utposten. B\u00f6rjan och slutet."
+        ],
+        "v_name": "Hallen",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "written": true,
+            "v_name": "meny",
+            "v_class": "Menu",
+            "v_container": []
+          },
+          {
+            "v_name": "d\u00f6rr",
+            "closed": true,
+            "v_class": "ExitDoor",
+            "v_container": []
+          },
+          {
+            "v_name": "whiteboardpenna",
+            "v_class": "Pen",
+            "v_container": []
+          }
+        ],
+        "roomIx": 1
+      },
+      {
+        "descr": [
+          "Fikarummet \u00e4r ljust och trevligt.",
+          "Fikarummet - kontorets vattenh\u00e5l.",
+          "Fikarummet har m\u00e5nga dyra inredningsdetaljer."
+        ],
+        "v_name": "Fikarummet",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "v_name": "mikro",
+            "closed": false,
+            "v_class": "Microwave",
+            "v_container": []
+          },
+          {
+            "broken": true,
+            "v_name": "kaffemaskin",
+            "v_class": "CoffeeMachine",
+            "v_container": []
+          },
+          {
+            "v_name": "arkadspel",
+            "highscoreHolder": "petera",
+            "v_class": "ArcadeGame",
+            "v_container": [],
+            "highscore": 920
+          },
+          {
+            "v_name": "fruktsk\u00e5l",
+            "v_class": "Fruitbowl",
+            "v_container": [
+              {
+                "v_name": "banan",
+                "v_class": "Banana",
+                "v_container": []
+              },
+              {
+                "v_name": "banan",
+                "v_class": "Banana",
+                "v_container": []
+              },
+              {
+                "v_name": "\u00e4pple",
+                "v_class": "Apple",
+                "v_container": []
+              },
+              {
+                "v_name": "\u00e4pple",
+                "v_class": "Apple",
+                "v_container": []
+              },
+              {
+                "v_name": "apelsin",
+                "v_class": "Orange",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          }
+        ],
+        "roomIx": 2
+      },
+      {
+        "descr": [
+          [
+            "H\u00e4r finns en d\u00f6rr in till toaletten. En doft av ",
+            [
+              "hallon",
+              "myskoxe",
+              "handsprit"
+            ],
+            " och ",
+            [
+              "d\u00f6d",
+              "solkokt t\u00e5ng",
+              "\u00e5ngest"
+            ],
+            " h\u00e4nger i luften."
+          ]
+        ],
+        "v_name": "Toan",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "locked": false,
+            "v_name": "d\u00f6rr",
+            "closed": true,
+            "v_class": "ToiletDoor",
+            "v_container": [
+              {
+                "v_name": "toalett",
+                "locked": true,
+                "v_class": "Toilet",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "v_name": "fl\u00e4kt",
+            "outOfBattery": false,
+            "v_class": "Fan",
+            "v_container": []
+          }
+        ],
+        "roomIx": 3
+      },
+      {
+        "descr": [
+          [
+            "Fratriks och Pedriks arbetsplats. ",
+            [
+              "Pedrik har det j\u00e4tteprydligt.",
+              "Fratrik har det kanske inte j\u00e4tteprydligt."
+            ]
+          ]
+        ],
+        "v_name": "Fratriks & Pedriks rum",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "v_name": "hurts",
+            "closed": false,
+            "v_class": "Drawer",
+            "v_container": []
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              },
+              {
+                "v_name": "penna",
+                "v_class": "BadPen",
+                "v_container": []
+              },
+              {
+                "v_name": "penna",
+                "v_class": "BadPen",
+                "v_container": []
+              },
+              {
+                "v_name": "penna",
+                "v_class": "BadPen",
+                "v_container": []
+              },
+              {
+                "v_name": "penna",
+                "v_class": "BadPen",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "post-it",
+                "v_class": "PostIt",
+                "v_container": []
+              },
+              {
+                "v_name": "utvecklingskort",
+                "v_class": "Devboard",
+                "v_container": []
+              },
+              {
+                "v_name": "utvecklingskort",
+                "v_class": "Devboard",
+                "v_container": []
+              },
+              {
+                "v_name": "kabel",
+                "v_class": "Cable",
+                "v_container": []
+              },
+              {
+                "v_name": "kabel",
+                "v_class": "Cable",
+                "v_container": []
+              },
+              {
+                "v_name": "kabel",
+                "v_class": "Cable",
+                "v_container": []
+              },
+              {
+                "v_name": "kabel",
+                "v_class": "Cable",
+                "v_container": []
+              },
+              {
+                "v_name": "kaffemugg",
+                "v_class": "BadMug",
+                "v_container": []
+              },
+              {
+                "v_name": "kaffemugg",
+                "v_class": "BadMug",
+                "v_container": []
+              },
+              {
+                "descr": "Titeln \u00e4r 'Safer C'",
+                "v_name": "bok",
+                "v_class": "Book",
+                "v_container": []
+              },
+              {
+                "descr": "Titeln \u00e4r 'The 8051 - A Love Story'",
+                "v_name": "bok",
+                "v_class": "Book",
+                "v_container": []
+              },
+              {
+                "descr": "Titeln \u00e4r 'Vintage Processing: Inside the Atari Arcade 6800 Processor'. Hmmm...",
+                "v_name": "bok",
+                "v_class": "Book",
+                "v_container": []
+              },
+              {
+                "descr": "Ett datablad f\u00f6r MRA16384 utvecklingskortet",
+                "v_name": "datablad",
+                "v_class": "DatasheetOther",
+                "v_container": []
+              },
+              {
+                "descr": "Ett datablad f\u00f6r MTS1788L accelerometern",
+                "v_name": "datablad",
+                "v_class": "DatasheetOther",
+                "v_container": []
+              },
+              {
+                "descr": "Ett datablad f\u00f6r AV6080 kameramodulen",
+                "v_name": "datablad",
+                "v_class": "DatasheetOther",
+                "v_container": []
+              },
+              {
+                "descr": "Ett datablad f\u00f6r SMT32G412 utvecklingskortet",
+                "v_name": "datablad",
+                "v_class": "DatasheetOther",
+                "v_container": []
+              },
+              {
+                "descr": "Ett datablad f\u00f6r Missile Command Structure in the Atari Arcade Machines. Skumt...",
+                "v_name": "datablad",
+                "v_class": "DatasheetOther",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "v_name": "oscilloskop",
+            "v_class": "Oscilloscope",
+            "v_container": []
+          }
+        ],
+        "roomIx": 4
+      },
+      {
+        "descr": "Min alldeles egna k\u00e4ra lilla fina arbetsplats.",
+        "v_name": "Mitt rum",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "v_name": "hurts",
+            "closed": false,
+            "v_class": "Drawer",
+            "v_container": [
+              {
+                "v_name": "sill",
+                "v_class": "RedHerring",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              }
+            ]
+          }
+        ],
+        "roomIx": 5
+      },
+      {
+        "descr": [
+          [
+            "Jeans och Gunthers arbetsplats. ",
+            [
+              "Det skvalar h\u00e5rdrock fr\u00e5n Jeans plats.",
+              "Det skvalar marschmusik fr\u00e5n Gunthers plats."
+            ]
+          ]
+        ],
+        "v_name": "Jeans & Gunthers rum",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "sitterPerson": "Gunther",
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "v_name": "hurts",
+            "closed": false,
+            "v_class": "Drawer",
+            "v_container": []
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              },
+              {
+                "v_name": "utvecklingskort",
+                "v_class": "DevboardGunther",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              }
+            ]
+          }
+        ],
+        "roomIx": 6
+      },
+      {
+        "descr": [
+          [
+            "Schtevens och Gringos arbetsplats. ",
+            [
+              "Kontorets kommandocentral.",
+              "Jag k\u00e4nner auran av viktighet.",
+              "H\u00e4r tas alla viktiga beslut. Och oviktiga ocks\u00e5."
+            ]
+          ]
+        ],
+        "v_name": "Schtevens & Gringos rum",
+        "v_class": "Room",
+        "v_container": [
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "sitterPerson": null,
+            "v_name": "stol",
+            "v_class": "Chair",
+            "v_container": []
+          },
+          {
+            "v_name": "hurts",
+            "closed": false,
+            "v_class": "Drawer",
+            "v_container": []
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "v_name": "bord",
+            "v_class": "Table",
+            "v_container": [
+              {
+                "v_name": "dator",
+                "v_class": "Computer",
+                "v_container": []
+              }
+            ]
+          },
+          {
+            "v_name": "kopieringsmaskin",
+            "kicks": 5,
+            "v_class": "Copier",
+            "v_container": []
+          }
+        ],
+        "roomIx": 7
+      }
+    ],
+    "player": {
+      "v_name": "Peter",
+      "elevated": false,
+      "v_class": "Player",
+      "v_container": [
+        {
+          "v_name": "tricorder",
+          "v_class": "Tricorder",
+          "v_container": []
+        },
+        {
+          "v_name": "katt",
+          "v_class": "Cat",
+          "v_container": []
+        }
+      ],
+      "roomIx": 1
+    },
+    "achievements": [
+      "gunther_help",
+      "fishdance",
+      "jean_nico",
+      "coffe_bug_found",
+      "coffe_bug_fixed",
+      "key_found",
+      "pedrik_woken",
+      "pedrik_rezombified",
+      "mindreader",
+      "menu_altered",
+      "pedrik_menu_check",
+      "jean_menu_check",
+      "missile_commander",
+      "beat_fratrik",
+      "cattosser"
+    ],
+    "persons": [
+      {
+        "curOp": {
+          "func": "hall",
+          "arg": null
+        },
+        "talk": 5,
+        "v_container": [],
+        "workMax": 60,
+        "roomIx": 1,
+        "v_name": "Fratrik",
+        "opStack": [
+          {
+            "func": "hall",
+            "arg": null
+          },
+          {
+            "func": "go",
+            "arg": 1
+          },
+          {
+            "func": "trywork",
+            "arg": null
+          }
+        ],
+        "homeRoomIx": 4,
+        "opTimer": 999999,
+        "sleeping": false,
+        "v_class": "Person",
+        "eat": 3,
+        "toilet": 2,
+        "workMin": 25,
+        "descr": "Icke desto mindre har Fratrik n\u00e5got tomt i blicken."
+      },
+      {
+        "curOp": {
+          "func": "hall",
+          "arg": null
+        },
+        "talk": 5,
+        "v_container": [],
+        "workMax": 60,
+        "roomIx": 1,
+        "v_name": "Pedrik",
+        "opStack": [
+          {
+            "func": "hall",
+            "arg": null
+          },
+          {
+            "func": "work",
+            "arg": null
+          }
+        ],
+        "homeRoomIx": 4,
+        "opTimer": 999999,
+        "sleeping": false,
+        "roomix": 0,
+        "v_class": "Person",
+        "eat": 3,
+        "toilet": 4,
+        "workMin": 25,
+        "descr": "Icke desto mindre har Pedrik n\u00e5got misst\u00e4nksamt i blicken."
+      },
+      {
+        "curOp": {
+          "func": "hall",
+          "arg": null
+        },
+        "talk": 5,
+        "v_container": [],
+        "workMax": 60,
+        "roomIx": 1,
+        "v_name": "Jean",
+        "opStack": [
+          {
+            "func": "hall",
+            "arg": null
+          },
+          {
+            "func": "trywork",
+            "arg": null
+          }
+        ],
+        "homeRoomIx": 6,
+        "opTimer": 999999,
+        "sleeping": false,
+        "v_class": "Person",
+        "eat": 3,
+        "toilet": 4,
+        "workMin": 25,
+        "descr": "Icke desto mindre har Jean matrester i mustaschen."
+      },
+      {
+        "curOp": {
+          "func": "work",
+          "arg": null
+        },
+        "talk": 1,
+        "v_container": [],
+        "workMax": 60,
+        "roomIx": 6,
+        "v_name": "Gunther",
+        "opStack": [
+          {
+            "func": "work",
+            "arg": null
+          }
+        ],
+        "homeRoomIx": 6,
+        "opTimer": 23,
+        "sleeping": false,
+        "v_class": "Person",
+        "eat": 1,
+        "toilet": 1,
+        "workMin": 35,
+        "descr": "Icke desto mindre har Gunther n\u00e5got glest sk\u00e4gg."
+      },
+      {
+        "curOp": {
+          "func": "etermeeting",
+          "arg": "Muts"
+        },
+        "talk": 25,
+        "v_container": [],
+        "workMax": 20,
+        "roomIx": 7,
+        "v_name": "Gringo",
+        "opStack": [
+          {
+            "func": "etermeeting",
+            "arg": "Muts"
+          },
+          {
+            "func": "trywork",
+            "arg": null
+          }
+        ],
+        "homeRoomIx": 7,
+        "opTimer": 999999,
+        "sleeping": false,
+        "v_class": "Person",
+        "eat": 5,
+        "toilet": 8,
+        "workMin": 6,
+        "descr": "Icke desto mindre \u00e4r Gringo kl\u00e4dd i en tajt spandexdr\u00e4kt som ser ut att vara ett flertal nummer f\u00f6r liten och ascool cykelhj\u00e4lm."
+      },
+      {
+        "curOp": {
+          "func": "etermeeting",
+          "arg": "Gringo"
+        },
+        "talk": 0,
+        "v_container": [],
+        "workMax": 60,
+        "roomIx": 7,
+        "v_name": "Muts",
+        "opStack": [
+          {
+            "func": "etermeeting",
+            "arg": "Gringo"
+          }
+        ],
+        "homeRoomIx": 2,
+        "opTimer": 999999,
+        "sleeping": false,
+        "v_class": "Person",
+        "eat": 7,
+        "toilet": 0,
+        "workMin": 45,
+        "descr": "Icke desto mindre har Muts n\u00e5got ondskefullt i blicken."
+      }
+    ],
+    "staticRants": [
+      "hellopedrik",
+      "pburger",
+      "pcheckmenu",
+      "hellogringo",
+      "gmuts1",
+      "gmuts2",
+      "gmuts3",
+      "gmuts4",
+      "hellogunther",
+      "hellojean",
+      "snus",
+      "jburger",
+      "jcheckmenu",
+      "pedrik_clear",
+      "hellofratrik",
+      "ffood1",
+      "ffood2",
+      "ffood3",
+      "jean_clear",
+      "checkhighscore",
+      "fratrik_clear"
+    ]
+  }
+}
